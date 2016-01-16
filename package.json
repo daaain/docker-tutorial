@@ -1,0 +1,49 @@
+{
+  "name": "docker-node-boilerplate",
+  "version": "1.0.0",
+  "description": "Docker example with a Node app.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ustwo/docker-node-boilerplate.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "compile": "gulp build",
+    "dev": "gulp start --dev",
+    "watch": "gulp watch --dev",
+    "browsersync": "gulp watch --browsersync --dev"
+  },
+  "dependencies": {
+    "autoprefixer": "6.1.0",
+    "babelify": "7.2.0",
+    "babel-cli": "6.1.18",
+    "babel-polyfill": "6.1.18",
+    "babel-preset-es2015": "6.1.18",
+    "babel-preset-react": "6.1.18",
+    "babel-preset-stage-0": "6.1.18",
+    "browser-sync": "2.10.0",
+    "browserify": "12.0.1",
+    "consolidate": "0.13.1",
+    "del": "2.1.0",
+    "express": "4.13.3",
+    "gulp": "3.9.0",
+    "gulp-if": "2.0.0",
+    "gulp-nodemon": "2.0.4",
+    "gulp-postcss": "6.0.1",
+    "gulp-sass": "2.1.0",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-uglify": "1.5.1",
+    "gulp-util": "3.0.7",
+    "handlebars": "4.0.4",
+    "nodemon": "1.8.1",
+    "normalize-libsass": "1.0.3",
+    "react": "0.14.2",
+    "react-dom": "0.14.2",
+    "route-pattern": "0.0.6",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "1.1.0",
+    "watchify": "3.6.0",
+    "yargs": "3.30.0"
+  }
+}
