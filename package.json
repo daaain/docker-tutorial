@@ -1,10 +1,10 @@
 {
-  "name": "docker-node-boilerplate",
+  "name": "docker-tutorial",
   "version": "1.0.0",
-  "description": "Docker example with a Node app.",
+  "description": "Docker tutorial with a Node app.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ustwo/docker-node-boilerplate.git"
+    "url": "git@github.com:ustwo/docker-tutorial.git"
   },
   "license": "MIT",
   "private": true,
